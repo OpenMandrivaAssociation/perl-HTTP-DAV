@@ -1,6 +1,6 @@
 %define pkgname HTTP-DAV
 
-Summary:	PerlDAV -- A WebDAV client library for Perl5
+Summary:	A WebDAV client library for Perl5
 Name:		perl-%{pkgname}
 Version:	0.31
 Release:	%mkrel 3
