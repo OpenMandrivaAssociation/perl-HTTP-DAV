@@ -15,7 +15,6 @@ BuildRequires:	perl-XML-DOM
 BuildRequires:	perl-Crypt-SSLeay
 BuildRequires:	perl-MD5
 BuildArch:	noarch
-Buildroot:	%{_tmppath}/%{name}-buildroot
 
 %description
 PerlDAV is a Perl library for modifying content on webservers using the WebDAV
