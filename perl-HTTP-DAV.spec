@@ -3,7 +3,7 @@
 Summary:	A WebDAV client library for Perl5
 Name:		perl-%{pkgname}
 Version:	0.31
-Release:	%mkrel 3
+Release:	%mkrel 4
 License:	GPL or Artistic
 Group:		Development/Perl
 URL:		http://www.cpan.org
