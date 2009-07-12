@@ -1,13 +1,16 @@
-%define module HTTP-DAV
+%define upstream_name    HTTP-DAV
+%define upstream_version 0.38
 
-Name:		perl-%{module}
-Version:	0.35
+Name:		perl-%{upstream_name}
+Version:	%perl_convert_version %{upstream_version}
 Release:	%mkrel 1
+
 Summary:	A WebDAV client library for Perl5
-License:	GPL or Artistic
+License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:        http://search.cpan.org/dist/%{module}
-Source:     http://www.cpan.org/modules/by-module/HTTP/%{module}-%{version}.tar.gz
+Url:        http://search.cpan.org/dist/%{upstream_name}
+Source0:    http://www.cpan.org/modules/by-module/HTTP/%{upstream_name}-%{upstream_version}.tar.gz
+
 BuildRequires:	perl-libwww-perl
 BuildRequires:	perl(XML::DOM)
 BuildRequires:	perl(Crypt::SSLeay)
@@ -21,7 +24,7 @@ protocol. Now you can LOCK, DELETE and PUT files and much more on a DAV-enabled
 webserver.
 
 %prep
-%setup -q -n %{module}-%{version}
+%setup -q -n %{upstream_name}-%{upstream_version}
 
 # fix attribs
 find . -type d -exec chmod 755 {} \;
