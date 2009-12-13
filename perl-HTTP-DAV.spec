@@ -1,5 +1,5 @@
 %define upstream_name    HTTP-DAV
-%define upstream_version 0.38
+%define upstream_version 0.39
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
