@@ -7,7 +7,7 @@ Version:	%perl_convert_version %{modver}
 Release:	9
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{modname}
+Url:		https://search.cpan.org/dist/%{modname}
 Source0:	http://www.cpan.org/modules/by-module/HTTP/HTTP-DAV-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl-libwww-perl
