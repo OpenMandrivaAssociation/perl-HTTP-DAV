@@ -10,6 +10,7 @@ Group:		Development/Perl
 Url:		https://search.cpan.org/dist/%{modname}
 Source0:	http://www.cpan.org/modules/by-module/HTTP/HTTP-DAV-%{modver}.tar.gz
 BuildArch:	noarch
+BuildRequires:	make
 BuildRequires:	perl-libwww-perl
 BuildRequires:	perl(XML::DOM)
 BuildRequires:	perl(Crypt::SSLeay)
