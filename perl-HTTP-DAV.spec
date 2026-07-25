@@ -1,14 +1,14 @@
 %define modname	HTTP-DAV
-%define modver 0.47
+%define modver 0.50
 
 Summary:	A WebDAV client library for Perl5
 Name:		perl-%{modname}
-Version:	%perl_convert_version %{modver}
-Release:	9
+Version:	%{modver}
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{modname}
-Source0:	http://www.cpan.org/modules/by-module/HTTP/HTTP-DAV-%{modver}.tar.gz
+Url:		https://metacpan.org/dist/HTTP-DAV
+Source0:	https://cpan.metacpan.org/authors/id/C/CO/COSIMO/HTTP-DAV-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	make
 BuildRequires:	perl-libwww-perl
