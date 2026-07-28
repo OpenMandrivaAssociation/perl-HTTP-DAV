@@ -4,7 +4,7 @@
 Summary:	A WebDAV client library for Perl5
 Name:		perl-%{modname}
 Version:	%{modver}
-Release:	1
+Release:	2
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		https://metacpan.org/dist/HTTP-DAV
@@ -13,7 +13,6 @@ BuildArch:	noarch
 BuildRequires:	make
 BuildRequires:	perl-libwww-perl
 BuildRequires:	perl(XML::DOM)
-BuildRequires:	perl(Crypt::SSLeay)
 BuildRequires:	perl(MD5)
 BuildRequires:	perl-devel
 
